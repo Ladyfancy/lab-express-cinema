@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 50px;
+  box-sizing: border-box; }
+
+a {
+  color: #00b7ff;
+  font-size: 10px;
+  box-shadow: #00b7ff; }
+
+h1 {
+  all: unset;
+  color: white;
+  font-size: 40px;
+  flex: right; }
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/images/cinema.jpg");
+  background-size: cover;
+  display: flex; }
+
+.movies {
+  display: flex; }
+  .movies img {
+    width: 200px;
+    border: 2px solid black; }
+
+img:hover {
+  transform: scale 1.4; }
+
+/*# sourceMappingURL=style.css.map */
